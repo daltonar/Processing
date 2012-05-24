@@ -19,7 +19,7 @@ blue=255;
 
 void draw() {
   smooth();
-  stroke(red, green, blue); 
+  stroke(red, green, blue, 45); 
   line(0, 0, mouseX, mouseY);
   line(640, 0, mouseX, mouseY);
   line(640, 480, mouseX, mouseY);

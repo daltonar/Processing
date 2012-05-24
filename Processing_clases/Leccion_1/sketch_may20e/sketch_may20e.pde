@@ -26,7 +26,7 @@ void draw() {
   smooth();
   noFill();
   
-  stroke(r1, g1, b1); 
+  stroke(r1, g1, b1, 45); 
 //  stroke(255,255,255);
 
  if(r1 <=255) {

@@ -42,16 +42,16 @@ void draw() {
   smooth();
   noFill();
   
-  stroke(r1, g1, b1); 
+  stroke(r1, g1, b1, 20); 
   ellipse(213, 160, mouseX, mouseY);
   
-  stroke(r4, g4, b4); 
+  stroke(r4, g4, b4, 20); 
   ellipse(410,160, mouseX, mouseY);
   
-  stroke(r2, g2, b2);
+  stroke(r2, g2, b2, 20);
   ellipse(410, 310, mouseX, mouseY);
   
-  stroke(r3, g3, b3);
+  stroke(r3, g3, b3, 20);
   ellipse(213, 310, mouseX, mouseY);
 
   r1=r1-5;

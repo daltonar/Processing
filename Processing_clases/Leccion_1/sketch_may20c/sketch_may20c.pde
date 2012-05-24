@@ -37,14 +37,14 @@ b3=0;
 void draw() {
   smooth();
   
-  stroke(r1, g1, b1); 
+  stroke(r1, g1, b1,45); 
   line(0, 0, mouseX, mouseY);
   line(640, 0, mouseX, mouseY);
   
-  stroke(r2, g2, b2);
+  stroke(r2, g2, b2,45);
   line(640, 480, mouseX, mouseY);
   
-  stroke(r3, g3, b3);
+  stroke(r3, g3, b3,45);
   line(0, 480, mouseX, mouseY);
 
   r1=r1-5;
