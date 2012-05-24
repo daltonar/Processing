@@ -1,0 +1,66 @@
+Clase 2
+
+=================================
+github.com/gcorallo/tallerprocessing
+github.com/alvarmaciel/tallerprocessing
+
+=================================
+
+noLoop()  // itera solo una vez (debbuging)
+
+=================================
+gama color
+=================================
+
+rc=sin(i)*200
+
+
+
+=================================
+funciones
+=================================
+
+tipo nombre(tipo de dato nombre del dato,........) {
+
+codigo
+return devuelve resultado
+
+}
+
+
+
+tipo void (no devuelve nada)
+tipo int
+
+
+
+
+=================================
+conversion de datos (cust de variables)
+=================================
+
+x float
+i= int(x),
+
+==================================
+Arrays
+=================================-
+
+
+int[] array;
+
+--------------------
+init array
+
+int[] a={1,2,3,4,5};
+int[] b=new int [5];
+
+
+===============================
+bucle for
+===============================
+for (int i=0; i<10; i++) {
+
+   rect(10,i*15,10,10);
+   
+   }
