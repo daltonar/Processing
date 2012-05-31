@@ -1,0 +1,22 @@
+ver grasshoper
+
+Clase3
+
+===============================
+! (equivale Not, solo boolean)
+===============================
+
+funcion map() expande o contrae un rango
+
+===============================
+
+loadpixels()
+pixels.right (devuelve el valor en pixeles de una pantalla (1 dimension)
+updatepixels()
+
+
+===============================
+tecnica easing
+http://www.robertpenner.com/easing/
+
+===============================
