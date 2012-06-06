@@ -1,4 +1,4 @@
-int elem=8;
+int elem=3;
 float[] x=new float[elem];
 float[] y=new float[elem];
 float[] vx=new float[elem];
@@ -20,22 +20,27 @@ void setup() {
 
 void draw() {
 
-//  background(0);
+  background(0);
   for (int i=0; i<elem; i++) {
 
-    if (i >=600 || i <=0) {
-      
-    
-      x[i]+=vx[i];
-      y[i]+=vy[i];
+    if ((x[i] > 600) || (x[i] < 0)) {
+          
+      x[i]+=(vx[i])*(-1);
+      y[i]+=(vy[i]);
       ellipse(x[i], y[i], 10, 10);
+      println(x[i] + "x");
       
     }
     
     else {
-      x[i]+=-vx[i];
-      y[i]+=-vy[i];
-      ellipse(x[i], y[i], 10, 10);
+      
+      if ((y[i] > 380) || (y[i] < 0)) {
+        
+         x[i]+=-vx[i];
+         y[i]+=-vy[i];
+         ellipse(x[i], y[i], 10, 10);
+         println(y[i] + "y");
+      }
     }
   }
 }

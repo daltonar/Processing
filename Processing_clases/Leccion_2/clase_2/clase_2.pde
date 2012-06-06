@@ -9,7 +9,7 @@ void draw() {
   
   for (int i=0; i<10; i++) {
     
-    for (int j=0; j<20; j++) {
+    for (int j=0; j<10; j++) {
       
       rect(mouseX+i*15,mouseY+j*15,10,10);
 
